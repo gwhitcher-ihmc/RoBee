@@ -1,0 +1,22 @@
+# Microsoft Word
+*.doc
+*.docx
+
+# Microsoft Excel
+*.xls
+*.xlsx
+*.csv
+
+# KiCad project files
+*.pro
+*.sch
+*.kicad_pro
+*.kicad_sch
+*.kicad_pcb
+*.net
+*.dcm
+*.lib
+*.bak
+*.cache
+*.cmp
+*.html
