@@ -1,0 +1,157 @@
+(footprint "LQH66SN_inductor"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "75423e05-155d-4d0a-b52a-1646cf105fad")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "LQH66SN_inductor"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "064990c7-9376-46d4-b57a-ea4c0dbdf890")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2de7e836-cfd8-45ef-a9c6-f8c3ddea6573")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "516e9b5f-300e-4b17-8095-a748850ba746")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.25 -2)
+		(end -3.25 -3.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "6d6e11d1-5448-48d1-a0bd-d0f87b7b9f1b")
+	)
+	(fp_line
+		(start -3.25 2)
+		(end -3.25 3.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "aade03a8-384b-4430-b44d-1eead7aafa90")
+	)
+	(fp_line
+		(start -3.25 3.25)
+		(end 3.25 3.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ba9f0f55-039f-4bb9-851c-34bb4a5d73d3")
+	)
+	(fp_line
+		(start 3.25 -3.25)
+		(end -3.25 -3.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "7351316a-a054-4479-b3aa-fd0ec8d5bb39")
+	)
+	(fp_line
+		(start 3.25 -2)
+		(end 3.25 -3.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "4fa0f72a-d411-434a-8859-91892f307974")
+	)
+	(fp_line
+		(start 3.25 2)
+		(end 3.25 3.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "248e98e5-0d1c-42e8-a073-ec15fbc79c06")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "e44bd9e5-2db7-478d-889f-ea7f8da2f7de")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -2.5 0 90)
+		(size 3.5 3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "63e28010-3019-4014-9e29-97e7d84121aa")
+	)
+	(pad "2" smd roundrect
+		(at 2.5 0 90)
+		(size 3.5 3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "e33ea458-c851-4391-b198-74efc843bd43")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/gwhitcher/IHMC/nomads-ee/kicad-libraries/LQH66SN103M03L (1)/LQH66SN103M03L.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

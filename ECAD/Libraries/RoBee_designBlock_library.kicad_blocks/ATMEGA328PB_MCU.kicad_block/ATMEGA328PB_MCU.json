@@ -1,0 +1,5 @@
+{
+"description": "basic schematics needed for the atmega328pb, including 0402 footprints, programming and debugging, and LEDs",
+"keywords": "mcu, leds, programming",
+"fields": {}
+}

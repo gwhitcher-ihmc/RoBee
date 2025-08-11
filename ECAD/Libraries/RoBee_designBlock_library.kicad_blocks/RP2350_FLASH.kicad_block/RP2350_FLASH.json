@@ -1,0 +1,5 @@
+{
+"description": "The flash circuitry required for the RP2350",
+"keywords": "RP2350, FLASH, QSPI",
+"fields": {}
+}

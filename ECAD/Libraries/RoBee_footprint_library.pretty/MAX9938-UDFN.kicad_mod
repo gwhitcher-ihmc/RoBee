@@ -1,0 +1,167 @@
+(footprint "MAX9938-UDFN"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -0.01 -1.55 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "90b28e89-3509-4586-8054-8419b8e873cc")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "MAX9938-UDFN"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "67ee629d-2b7f-4061-9eb6-fb9659d7eaa1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at -0.92 -0.65 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "971d6188-3aaa-477a-8473-d6d01e4c1300")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -0.92 -0.65 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "833bc9dc-0954-43f9-a060-23041d57d2fe")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at -0.92 -0.65 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "741b742c-7209-4ca5-8cde-44d9490717cd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.7 -1)
+		(end 0.7 -1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "4fcb8d1b-53e4-427c-987e-b27f565584cd")
+	)
+	(fp_line
+		(start -0.7 1)
+		(end 0.7 1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "4bb84ff0-b61a-43b2-a700-5851889852e1")
+	)
+	(fp_poly
+		(pts
+			(xy -1.4 -0.9) (xy -1.4 -1.1) (xy -1.6 -0.9)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "758c1e43-16fe-41f6-ab69-68b86b8c205c")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "0d6aaad0-42fc-4c48-bec8-bdeb53f25ca0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.92 -0.65)
+		(size 0.8 0.35)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.15)
+		(uuid "f1923b66-3ac6-4235-a561-cf1bcad1372c")
+	)
+	(pad "2" smd roundrect
+		(at -0.92 0)
+		(size 0.8 0.35)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.15)
+		(uuid "e4aee473-dd94-4d9f-baee-a5361083ba08")
+	)
+	(pad "3" smd roundrect
+		(at -0.92 0.65)
+		(size 0.8 0.35)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.15)
+		(uuid "dfec5b5c-1f9e-45c2-b7d2-839bd89a5cc0")
+	)
+	(pad "4" smd roundrect
+		(at 0.91 0.65)
+		(size 0.8 0.35)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.15)
+		(uuid "a7296533-843f-49aa-a27f-a449a4ce0113")
+	)
+	(pad "5" smd roundrect
+		(at 0.91 0)
+		(size 0.8 0.35)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.15)
+		(uuid "15630f30-bf4a-4b4d-b446-b950cc43bec8")
+	)
+	(pad "6" smd roundrect
+		(at 0.91 -0.65)
+		(size 0.8 0.35)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.15)
+		(uuid "37167180-46b7-4846-8552-c8444e077bf3")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/DFN-6-1EP_2x2mm_P0.5mm_EP0.61x1.42mm.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
