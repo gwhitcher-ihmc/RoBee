@@ -6737,16 +6737,6 @@
 		)
 		(uuid "0616006c-90ec-443d-9425-4b1c4ef438ac")
 	)
-	(label "GPIO25"
-		(at 58.42 149.86 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0b4e308a-6a9f-4937-8f74-ed595285814f")
-	)
 	(label "RST"
 		(at 30.48 166.37 0)
 		(effects
@@ -7158,6 +7148,16 @@
 		)
 		(uuid "af86b1f3-a979-464a-b6d6-3f4fb135f90e")
 	)
+	(label "LED_BUILTIN"
+		(at 58.42 149.86 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b2f24180-7a81-4a02-b96b-195dfd6f4680")
+	)
 	(label "SPI{SPI1_SCK,SPI1_TX,SPI1_RX}"
 		(at 350.52 39.37 0)
 		(effects
@@ -7387,7 +7387,7 @@
 			(fill
 				(type none)
 			)
-			(uuid 09f3058a-537c-4882-8e1b-5c812b6dc84d)
+			(uuid 713526be-5b62-4902-bb45-463cb9a49c3e)
 		)
 	)
 	(netclass_flag ""

@@ -647,6 +647,10 @@
     [
       "421006c7-5c19-4fe4-b045-335315607d2c",
       "onBoardComms"
+    ],
+    [
+      "e88b508e-f3c9-4a5f-b462-34c34980581a",
+      "offBoardSensors"
     ]
   ],
   "text_variables": {}

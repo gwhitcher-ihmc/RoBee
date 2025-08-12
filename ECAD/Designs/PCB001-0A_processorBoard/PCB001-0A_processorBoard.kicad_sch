@@ -15,6 +15,19 @@
 		)
 		(uuid "0876d6ae-5ea2-48fb-aaa1-5acc11bf56d1")
 	)
+	(text "Featues to add\n1. side connectors for breadboard\n2. motor controller connectors\n3. display?\n4. power supply"
+		(exclude_from_sim no)
+		(at 83.82 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "6414d9a6-bc61-4123-bbe5-c5ccf76fd85b")
+	)
 	(text "right click and select \n\"unfold from bus\"\n(the first option)\n\n"
 		(exclude_from_sim no)
 		(at 151.13 49.53 0)
@@ -116,6 +129,26 @@
 	)
 	(bus
 		(pts
+			(xy 233.68 106.68) (xy 233.68 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "208f0f08-84cd-441f-b50d-2f5d7d95bd98")
+	)
+	(bus
+		(pts
+			(xy 220.98 133.35) (xy 233.68 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2339ff8b-638c-4a8b-9cb5-e2ef9d6a7ffc")
+	)
+	(bus
+		(pts
 			(xy 160.02 129.54) (xy 172.72 129.54)
 		)
 		(stroke
@@ -146,6 +179,16 @@
 	)
 	(bus
 		(pts
+			(xy 220.98 130.81) (xy 231.14 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "455a5b8d-5565-4726-ac6d-f0f3bb8b09e2")
+	)
+	(bus
+		(pts
 			(xy 160.02 68.58) (xy 172.72 68.58)
 		)
 		(stroke
@@ -163,6 +206,16 @@
 			(type default)
 		)
 		(uuid "540c2a91-cbbd-434f-a967-4ba1d34a9fc7")
+	)
+	(bus
+		(pts
+			(xy 220.98 128.27) (xy 228.6 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57071682-5966-401b-a4ee-a7c6c5374880")
 	)
 	(bus
 		(pts
@@ -196,6 +249,66 @@
 	)
 	(bus
 		(pts
+			(xy 180.34 76.2) (xy 180.34 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "767f7b7f-a728-4640-aec1-a5c97c8c0322")
+	)
+	(bus
+		(pts
+			(xy 175.26 106.68) (xy 233.68 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a11ac8a-ec1c-4ce7-abee-b7d1838ac71c")
+	)
+	(bus
+		(pts
+			(xy 228.6 101.6) (xy 228.6 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a63f3b6-acf6-4db3-a39c-1e62577723d1")
+	)
+	(bus
+		(pts
+			(xy 121.92 109.22) (xy 180.34 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c0e78fe-ee07-4334-8977-89da3ddfb363")
+	)
+	(bus
+		(pts
+			(xy 121.92 109.22) (xy 121.92 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c5c7016-4b0f-453e-8d91-894418ff5500")
+	)
+	(bus
+		(pts
+			(xy 160.02 76.2) (xy 180.34 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88451a3a-653d-4e80-be92-541cb3e35864")
+	)
+	(bus
+		(pts
 			(xy 160.02 71.12) (xy 175.26 71.12)
 		)
 		(stroke
@@ -203,6 +316,16 @@
 			(type default)
 		)
 		(uuid "8cf2b62d-d617-48cd-9baf-8e8a4902ff1c")
+	)
+	(bus
+		(pts
+			(xy 170.18 101.6) (xy 228.6 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8dab4524-a63f-4a88-9258-bc3a636d1ef0")
 	)
 	(bus
 		(pts
@@ -233,6 +356,36 @@
 			(type default)
 		)
 		(uuid "9ac9c48a-b7db-447e-8dbe-f4e34e6ead71")
+	)
+	(bus
+		(pts
+			(xy 109.22 134.62) (xy 121.92 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d23d1d2-fc23-4f70-9697-08afdea8521e")
+	)
+	(bus
+		(pts
+			(xy 231.14 104.14) (xy 231.14 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "baad7ef6-584e-4411-b19e-8d42b699b76a")
+	)
+	(bus
+		(pts
+			(xy 172.72 104.14) (xy 231.14 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbc85e69-3e38-4227-8e0c-386641cf673f")
 	)
 	(bus
 		(pts
@@ -389,6 +542,16 @@
 				(justify right)
 			)
 		)
+		(pin "comms_gpio" bidirectional
+			(at 160.02 76.2 0)
+			(uuid "88166dcd-86ea-4ef8-a375-461f183e5fdb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "PCB001-0A_processorBoard"
 				(path "/c85d256f-82d8-4180-ad51-faa565e237b8"
@@ -455,6 +618,16 @@
 		(pin "UART" bidirectional
 			(at 109.22 127 0)
 			(uuid "0756a110-fd22-45ce-936b-042bc6ac0eea")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "comms_gpio" bidirectional
+			(at 109.22 134.62 0)
+			(uuid "0b84e4ee-3b5b-4e53-824a-f41cee93a0b3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -549,6 +722,89 @@
 			(project "PCB001-0A_processorBoard"
 				(path "/c85d256f-82d8-4180-ad51-faa565e237b8"
 					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 187.96 115.57)
+		(size 33.02 39.37)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 72 0 72 1)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "e88b508e-f3c9-4a5f-b462-34c34980581a")
+		(property "Sheetname" "offBoardSensors"
+			(at 187.96 114.8584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "off_board_sensors.kicad_sch"
+			(at 187.96 155.5246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "I2C" bidirectional
+			(at 220.98 130.81 0)
+			(uuid "a7da946d-b255-4a99-8249-51c6e8110560")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI" bidirectional
+			(at 220.98 133.35 0)
+			(uuid "d5f4edbc-d3d0-4087-90ef-5d33a87160d1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "UART" bidirectional
+			(at 220.98 128.27 0)
+			(uuid "671f0e54-39f9-4ccf-b063-46ce824c92ac")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "off_board_sensors" bidirectional
+			(at 220.98 135.89 0)
+			(uuid "1defcf97-0155-4614-9412-6cd2c469d3c1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "PCB001-0A_processorBoard"
+				(path "/c85d256f-82d8-4180-ad51-faa565e237b8"
+					(page "6")
 				)
 			)
 		)
