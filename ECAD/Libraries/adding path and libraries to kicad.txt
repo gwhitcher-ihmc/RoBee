@@ -1,0 +1,29 @@
+This should be the file structure used throughout to keep the designs porable.
+
+ROBEE (GitHub repo)
+| - CAD
+| - ECAD
+|	| - Datasheets
+|	| - Designs
+|	|	| - PCB001
+|	|		| - PCB001_0A (project folder)
+|	| - Fabtrication
+|	| - Libraries
+|		| - RoBee_designBlock_library.kicad_blocks
+|		| - RoBee_footprint_library.pretty
+|		| - RoBee_symbol_library.kicad_sym
+|		| - RoBee_symbol_library_(IHMC).kicad_sym
+|		| - RoBee_3D-Models
+| - Logo
+| - Reports
+| - .gitignore
+
+in KiCAD project manager Preferences -> configure paths, add the following to the list:
+ROBEE_LIB = ${KIPRJMOD}/../../../Libraries
+in KiCAD project manager Preferences -> manage libraries (symbol, footprint, and design blocks)
+add 
+${ROBEE_LIB}/[library name]
+
+when designing a new footprint, be sure to link the 3D model using the.
+${ROBEE_LIB}/RoBee_3D-Models/[modelname].stp
+
