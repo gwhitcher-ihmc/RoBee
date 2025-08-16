@@ -669,6 +669,89 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text "The GPIO bus contains 0-47.\nbreakout the bus connection\nbased on the actual use case."
 		(exclude_from_sim no)
@@ -714,6 +797,16 @@
 		)
 		(uuid "9dd072f7-d476-4d83-ab94-f2eb24f51678")
 	)
+	(text "putting these here so that\nwe can get a sense of scale\nwith the PCB\n"
+		(exclude_from_sim no)
+		(at 234.95 27.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b7d57026-6495-4b73-83e1-e4995a1a4150")
+	)
 	(text "including:\nIMU\ncompass\nGPS\ntemperature"
 		(exclude_from_sim no)
 		(at 143.51 146.05 0)
@@ -723,6 +816,16 @@
 			)
 		)
 		(uuid "bb802839-b644-4b45-b19f-9a07e7f5d1b6")
+	)
+	(text "the pcb MUST include atleast \n3 mounting holes, but 4 would \nbe better."
+		(exclude_from_sim no)
+		(at 265.43 39.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d06ad282-e287-4c84-aee2-7650734e5287")
 	)
 	(text "including:\nNRF24L0\nUART output"
 		(exclude_from_sim no)
@@ -1203,17 +1306,17 @@
 		(uuid "fa8df440-12f8-459e-8ec4-f95d90dd9eca")
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x20")
-		(at 259.08 57.15 0)
-		(mirror y)
+		(lib_id "Mechanical:MountingHole")
+		(at 264.16 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(uuid "3641d380-47db-4b06-9ff7-4b7e7a0c46c6")
-		(property "Reference" "J2"
-			(at 256.54 57.1499 0)
+		(fields_autoplaced yes)
+		(uuid "17d562c3-19bd-4629-a79a-9282ccda9155")
+		(property "Reference" "H1"
+			(at 266.7 46.9899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1221,8 +1324,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x20"
-			(at 256.54 59.6899 0)
+		(property "Value" "M2"
+			(at 266.7 49.5299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1230,8 +1333,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x20_P2.54mm_Vertical"
-			(at 259.08 57.15 0)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 264.16 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1240,7 +1343,136 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 259.08 57.15 0)
+			(at 264.16 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 264.16 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/c85d256f-82d8-4180-ad51-faa565e237b8"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 264.16 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "33e1405f-c4da-405f-a4c3-3be541b4a674")
+		(property "Reference" "H2"
+			(at 266.7 52.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M2"
+			(at 266.7 54.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 264.16 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 264.16 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 264.16 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "PCB001-0A_processorBoard"
+				(path "/c85d256f-82d8-4180-ad51-faa565e237b8"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x20")
+		(at 240.03 57.15 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3641d380-47db-4b06-9ff7-4b7e7a0c46c6")
+		(property "Reference" "J2"
+			(at 237.49 57.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x20"
+			(at 237.49 59.6899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x20_P2.54mm_Vertical"
+			(at 240.03 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 240.03 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1249,7 +1481,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x20, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 259.08 57.15 0)
+			(at 240.03 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1352,6 +1584,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x20_P2.54mm_Vertical"
@@ -1445,6 +1678,134 @@
 			(project ""
 				(path "/c85d256f-82d8-4180-ad51-faa565e237b8"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 264.16 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6e280bec-9419-4e53-9fcc-b6fdc82fed31")
+		(property "Reference" "H4"
+			(at 266.7 62.2299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M2"
+			(at 266.7 64.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 264.16 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 264.16 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 264.16 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "PCB001-0A_processorBoard"
+				(path "/c85d256f-82d8-4180-ad51-faa565e237b8"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 264.16 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ede1f1c7-9695-467a-8827-e67366b4e9ac")
+		(property "Reference" "H3"
+			(at 266.7 57.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M2"
+			(at 266.7 59.6899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 264.16 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 264.16 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 264.16 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "PCB001-0A_processorBoard"
+				(path "/c85d256f-82d8-4180-ad51-faa565e237b8"
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -1621,6 +1982,16 @@
 		(pin "VBUS" input
 			(at 107.95 66.04 0)
 			(uuid "29f440fe-11f3-4fde-88cc-83e72390f7be")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "5V IN" input
+			(at 107.95 63.5 0)
+			(uuid "1977ab52-30ab-4498-a65d-0c81fd54595d")
 			(effects
 				(font
 					(size 1.27 1.27)
